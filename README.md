@@ -1,6 +1,6 @@
 # Math_Notes_SteveLIN0101
 
-此 GitHub 仓库用于存储我的数学markdown 笔记。 
+此 GitHub 仓库用于存储我的数学markdown 笔记。 \\
 This GitHub repository is used to store my math markdown notes.
 
 主要配置 Main Configuration:
