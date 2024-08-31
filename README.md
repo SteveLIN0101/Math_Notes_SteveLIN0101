@@ -16,7 +16,10 @@ GitHub 对多行数学公式的处理和 Obsidian 不同。 GitHub handles multi
 
 详情请参考 [Use Markdown to display mathematical expressions on GitHub](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)。 Refer the above link for details.
 
-因此对于每份 markdown 文件，我尽量提供 GitHub 和 Obsidian 两个版本。So for each markdown file, I will attempt to provide both GitHub and Obsidian versions.
+因此对于每份 markdown 文件，我尽量选择其一： So for each markdown file, I will attempt to choose one of the followings：
+
+1. 提供 GitHub 和 Obsidian 两个版本。 Provide both GitHub and Obsidian versions.
+2. 提供 Obsidian 的 markdown 和对应的PDF。 Provide the markdown file (Obsidian ver.) and the corresponding PDF.  
 
 - GitHub 使用`$$`表述数学公式的时候，前后都必须空一行。When using `$$` to express a mathematical formula in GitHub, it must be preceded by a blank line.
 - GitHub 使用多行公式以及添加 tag 必须满足以下格式，否则排版会出错。 GitHub's use of multi-line formulas and the addition of tags must meet the following format, otherwise the typesetting will be wrong.
