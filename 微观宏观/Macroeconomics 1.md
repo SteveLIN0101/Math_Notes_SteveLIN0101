@@ -34,4 +34,81 @@ Part 4: Monetary Policies
 1. Goals of Monetary Policy and Zero Lower Bound
 2. Yield Curve and Monetary Policy
 Part 5: Open Economy Macroeconomics
-1. Mundell-Fleming Model 
+1. Mundell-Fleming Model
+
+
+- DSGE: Dynamic Stochastic General Equilibrium
+- HP filter
+
+## Issues
+
+What questions will we address in Macroeconomics?
+
+- Micro- individual's choices, individual/firm's behaviors
+- Macro- The study of the economy as a whole. It is therefore concerned with some of the most important questions in economies.
+- Typically macro broken into **growth** (what we care in the long-run) and **cycles** (what we care in the short run).
+	- Eg. **rule of 70**: If the GDP of  a economy grow with rate $g$, then it takes $\frac{70}{g}$ years for its GDP to double.
+	- Great Moderation: USA, mid-1980s to 2007
+	- Why some countries are rich
+- Models - what methodology do we use to look at the economy?
+	- An "abstract model" is a simplified description capturing essential elements of a situation. Its purpose is to provide insights about particular features of the world;
+	- Simplifying assumptions always exist so that we can use the model to study and understand the question
+- Techniques - what tools do we need to study these questions and models?
+	- We need some mathematical tools to study the questions, build the model, solve the model and answer the question we are interested in.
+	- if want to learn further, take ECON 5210 
+	- constraint optimization - Lagrangian method
+	- log-linear?
+	- Calculus
+
+### Issues: Economic Growth
+- Most economic exhibit sustained growth in GDP per ca pita
+- Key questions:
+	1. Do poor countries grow faster than rich ones? Or, do we see convergence among countries?
+		- Poor samples in 1960s: no convergence
+		- There is a convergence for OECD & Asia countries: a lower GDP per ca pita in 1960 is associated with  a higher growth rate
+		- No for African countries
+	1. What are sources of economic growth? Capital accumulation? Human capital investment? Technology improvement? Institution?
+	2. What shall we do to enhance (for poor countries) or  sustain (for rich countries) economic growth?
+	
+## Saving and Growth
+- Fast-growing economics: JP, HK, TW, KR
+- BRICs
+
+## Issues: Business Cycles (Economic Fluctuations)
+- What are business cycles?
+	- Burns and Mitchell (1913, 1927, 1946): 
+		- expansions occurring at the same time in many economic sectors, followed by similarly general recessions, contractions and revivals.
+	- fluctuations occurs in aggregate activity, not in particular sectors.
+	- cycles are recurrent, but not periodic
+	- 2 different stages: expansions and contractions
+	- there are regular and predictable co - movements between variable over the cycles - C I L Y.
+
+## Questions on Business Cycles
+- What are the empirical characteristics of business cycles?
+	- Volatility, persistence, co-movement of the major aggregates
+- What brings about business cycles? What propagates them?
+- What kind of shocks?
+	- demand shocks:
+	- supply shocks/ technology shocks,
+- Who is mostly affected and how larger would be the welfare gains of eliminating business cycles?
+- What is the role of policies?
+- Central question - are business cycles efficient?
+	- **RBC theory**: Business Cycle is natural implication of dynamic economies with shocks to technology - all markets clear. Therefore, the business cycles are efficients.
+	- **Alternative view**: emphasize the role of nominal rigidities (sticky price or sticky wages) in propagating technology shocks to the whole economy- not all markets clear.
+- Both RBC model and New Keynesian theories downploy role of financial markets in business cycles.
+
+
+
+- Question: How to decompose the time series into a long-run trend component and a business cycle component? What is growth component and what is cyclical component?
+
+## Cyclical Component
+
+- What part of the data is considered a growth phenomenon and what is considered a business cycle phenomenon is somewhat arbitrary.
+- While it is clear that "business cycle fluctuations" are the deviation of  a key economic variable of interest (mostly real GDP) from a growth trend, what is unclear is how to model this growth trend.
+- Assume long-run growth trend grows at a constant rate $g$ over time:
+$$ Y_{t}^{\text{trend}} = Y_{s}^{\text{trend}}(1+g)^{t-s} \implies $$
+$$ \log (Y_{t}^{\text{trend}}) = \log (Y_{s}^{\text{trend}} ) + (t-s) \log (1+g) $$
+$$\text{Approximately, we have} \quad y_{t}^{\text{trend}} = y_{s}^{\text{trend}} g $$
+$$ \log (1+g) \sim g \ \text{ for } g \text{ small enough}, \ g \to 0 $$
+
+

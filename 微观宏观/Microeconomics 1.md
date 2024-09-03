@@ -92,5 +92,16 @@ Question: Any example of discontinuous preference?
 > **Monotonicity**: $x \geq y \implies x \succeq y$
 > **Strong Monotonicity:** $x \geq y \implies x \succeq y$, and $x \succ y$ if in addition $x\neq y$.
 
-The more the better.
-M
+The more, the better.
+Example: 
+- Monotonicity says: because $(3, 5) \geq (3, 4)$, $(3, 5) \succeq (3, 4)$
+- but monotonicity is silent on: $(3,5), (4,4)$
+
+> [! Remarks]
+> *In cases when we prefer **small numbers** (bads), we just redefine...*
+> Example:
+> Original consumption set $(x_{1}, x_{2}) = (\text{working hours}, \text{consumption})$
+> Preference: Less working hours is better.
+> Redefine: $x_{1}' = 24 -x_{1} = \text{Leisure hours}$.
+> Then more leisure hours is better.
+
