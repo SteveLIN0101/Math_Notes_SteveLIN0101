@@ -1,6 +1,7 @@
 Great Financial Crisis (GEFC)
 
-Introduction:
+## Introduction
+
 -  formal analytical tools in macroeconomics, including:
 	- overlapping-generation models,
 	- infinite-horizon models with representative agents,
@@ -19,7 +20,8 @@ Introduction:
 	- the current account adjustment
 	- the discussion of exchange rate regimes
 
-Outline:
+## Outline
+
 Part 1: Review of the basic tools
 1. Issues, Models and Techniques 
 2. Simple Dynamic Stochastic General Equilibrium Models
@@ -67,14 +69,20 @@ What questions will we address in Macroeconomics?
 		- Poor samples in 1960s: no convergence
 		- There is a convergence for OECD & Asia countries: a lower GDP per ca pita in 1960 is associated with  a higher growth rate
 		- No for African countries
-	1. What are sources of economic growth? Capital accumulation? Human capital investment? Technology improvement? Institution?
-	2. What shall we do to enhance (for poor countries) or  sustain (for rich countries) economic growth?
+	2. What are sources of economic growth? Capital accumulation? Human capital investment? Technology improvement? Institution?
+	3. What shall we do to enhance (for poor countries) or  sustain (for rich countries) economic growth?
 	
 ## Saving and Growth
-- Fast-growing economics: JP, HK, TW, KR
-- BRICs
+
+- Fast-growing economies are often associated with high saving rates: 
+	- JP in 1960s; HK, TW, KR in 1980s; 
+		- all with an average above 30%
+	- BRICs 1998-2008: 
+		- rise in Brazil 4%, Russia 15%, India 12%
+		- China up 12%, with an average of 50% between 2004-2008
 
 ## Issues: Business Cycles (Economic Fluctuations)
+
 - What are business cycles?
 	- Burns and Mitchell (1913, 1927, 1946): 
 		- expansions occurring at the same time in many economic sectors, followed by similarly general recessions, contractions and revivals.
@@ -84,6 +92,7 @@ What questions will we address in Macroeconomics?
 	- there are regular and predictable co - movements between variable over the cycles - C I L Y.
 
 ## Questions on Business Cycles
+
 - What are the empirical characteristics of business cycles?
 	- Volatility, persistence, co-movement of the major aggregates
 - What brings about business cycles? What propagates them?
@@ -93,9 +102,12 @@ What questions will we address in Macroeconomics?
 - Who is mostly affected and how larger would be the welfare gains of eliminating business cycles?
 - What is the role of policies?
 - Central question - are business cycles efficient?
-	- **RBC theory**: Business Cycle is natural implication of dynamic economies with shocks to technology - all markets clear. Therefore, the business cycles are efficients.
+	- **RBC theory**: Business Cycle is natural implication of dynamic economies with shocks to technology - all markets clear. Therefore, the business cycles are efficient.
+		- Still have difficulties in explaining co-movements of some major aggregate variable
 	- **Alternative view**: emphasize the role of nominal rigidities (sticky price or sticky wages) in propagating technology shocks to the whole economy- not all markets clear.
+	- **New Approach**: formulating policy relevant models based on dynamic general equilibrium and nominal rigidities
 - Both RBC model and New Keynesian theories downploy role of financial markets in business cycles.
+- Third view, **credit channel**: imperfections in lending market critical to economics fluctuations.
 
 
 
@@ -111,4 +123,35 @@ $$ \log (Y_{t}^{\text{trend}}) = \log (Y_{s}^{\text{trend}} ) + (t-s) \log (1+g)
 $$\text{Approximately, we have} \quad y_{t}^{\text{trend}} = y_{s}^{\text{trend}} g $$
 $$ \log (1+g) \sim g \ \text{ for } g \text{ small enough}, \ g \to 0 $$
 
+- Business Cycle component can be expressed as
+$$ y_{t} = \log(Y_{t}) - \log(Y_{t}^{\text{trend}}) $$
+	By using logs, the deviation of actual log real GDP from trend equals percentage deviation from trend.
+$$ \begin{equation}
 
+\begin{aligned}
+y_{t} &= \log \left( \frac{Y_{t}}{Y_{t}^{\text{trend}}} \right) \\
+&= \log \left( \frac{Y_{t} - Y_{t}^{\text{trend}}}{Y_{t}^{\text{trend}}} + 1 \right) \\
+&\approx \frac{Y_{t} - Y_{t}^{\text{trend}}}{Y_{t}^{\text{trend}}} 
+
+\end{aligned} 
+
+\end{equation} $$
+- Here use the property that $\log(1+x)\approx x$ when $x$ is close to zero.
+
+- Business cycles are characterized by **substantial deviations** from the long run growth trend. (**Linear Detrending**)
+
+### Hodrick-Prescott filter
+
+- We want to decompose the raw data, $\log(Y_{t})$ into 
+	- a growth trend $y_{t}^{\text{trend}} = \log(Y_{t}^{\text{trend}})$ , and 
+	- a cyclical component $y_{t} = \log(Y_{t}^{\text{cycle}})$  such that
+$$ \log(Y_{t}) = \log(Y_{t}^{\text{trend}}) + \log(Y_{t}^{\text{cycle}}) $$
+$$ y_{t} = \log(Y_{t}) - y_{t}^{\text{trend}} $$
+
+- The HP-filter proposes to make this decomposition by solving the following minimization problem
+$$ \min_{y_{t}, y_{t}^{\text{trend}}} \sum_{t=1}^{T} \left( \log(Y_{t}) - y_{t}^{\text{trend}} \right)^{2} + \lambda \sum_{t=1}^{T} \left[ (y_{t+1}^{\text{trend}} - y_{t}^{\text{trend}} ) - (y_{t}^{\text{trend}} - y_{t-1}^{\text{trend}} )   \right]^{2}  $$
+$$ \text{ subject to } \quad y_{t} + y_{t}^{\text{trend}} = \log (Y_{t}) $$
+- Trade-off in choosing the trend:
+	- want the trend component to be a smooth function by its definition
+	- want to make the trend component track the actual data to some degree, in order to capture also some fluctuations in the data that are of lower frequency than business cycles.
+- These two considerations are balanced by the parameter $\lambda$
