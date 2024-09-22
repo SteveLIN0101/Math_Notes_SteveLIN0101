@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "315819e8baae1485",
+        "id": "da62b4d090c9fa15",
         "type": "tabs",
         "children": [
           {
-            "id": "53dd07031a51b6db",
+            "id": "6f9365be608957d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微观宏观/Microeconomics 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54397c85be4c7887",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "微观宏观/Macroeconomics 1.md",
+                "file": "数学笔记/格林公式-高斯公式.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "26f142a5f40b1ac4",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微观宏观/Macroeconomics 1.md",
+                "file": "数学笔记/格林公式-高斯公式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "微观宏观/Macroeconomics 1.md",
+                "file": "数学笔记/格林公式-高斯公式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "微观宏观/Macroeconomics 1.md"
+                "file": "数学笔记/格林公式-高斯公式.md"
               }
             }
           },
@@ -169,14 +155,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54397c85be4c7887",
+  "active": "6f9365be608957d7",
   "lastOpenFiles": [
-    "微观宏观/Microeconomics 1.md",
+    "数学笔记/格林公式图例.webp",
+    "数学笔记/格林公式-高斯公式.md",
     "微观宏观/Macroeconomics 1.md",
+    "微观宏观/Microeconomics 1.md",
+    "Untitled",
+    "微观宏观/Microeconomics 1.pdf",
+    "微观宏观/Macroeconomics 1.pdf",
+    "a",
     "README.md",
     "微观宏观",
-    "每周1题/每周1题 2024.08.26-28.md",
-    "每周1题/每周1题 2024.08.26-28 (GitHub).md",
-    "每周1题/每周1题 2024.08.26-28.pdf"
+    "数学笔记/每周1题 2024.08.26-28.md",
+    "数学笔记/每周1题 2024.08.26-28 (GitHub).md",
+    "数学笔记/每周1题 2024.08.26-28.pdf"
   ]
 }
