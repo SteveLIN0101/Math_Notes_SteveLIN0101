@@ -1,4 +1,6 @@
 
+[Source](https://education.illinois.edu/docs/default-source/carolyn-anderson/edpsy589/lectures/8_Multicategory_logit/ordinal_logistic_post.pdf)
+
 Ordinal: 顺序的，dichotomize: 对分，二分
 
 Common models for ordinal responses:
